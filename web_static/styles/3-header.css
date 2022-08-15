@@ -1,0 +1,14 @@
+header {
+    background-color: white;
+    border-bottom: 1px solid #CCCCCC;
+    height: 70px;
+    width: 100%;
+}
+
+.Logo {
+    background-image: url("../images/logo.png");
+    position: absolute;
+    width: 136px;
+    height: 60px;
+    left: 20px;
+}
