@@ -35,14 +35,48 @@
 }
 
 .filters h3 {
-	padding-left: 40px;
+    padding-left: 40px;
 	font-weight: 600;
 	margin-bottom: 0;
 }
 
 .filters h4 {
-	padding-left: 40px;
+    padding-left: 40px;
 	font-weight: 400;
 	font-size: 14px;
 	margin-top: 0;
+}
+
+ul {
+	padding: 30px 0;
+}
+
+.popover {
+	display: none;
+	background-color: #FAFAFA;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	list-style: none;
+}
+.popover h2 {
+	margin-bottom: 0;
+	font-size: 16px;
+}
+li {
+	list-style: none;
+}
+.locations .popover li {
+	padding-left: 20px;
+}
+.locations .popover ul {
+	padding-top: 0;
+}
+
+.locations:hover .popover {
+	display: block;
+}
+.amenities:hover .popover {
+	display: block;
+	padding-left: 30px;
 }
